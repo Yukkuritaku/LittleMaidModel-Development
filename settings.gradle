@@ -8,9 +8,10 @@ pluginManagement {
 		maven { url "https://maven.minecraftforge.net/" }
 		maven { url 'https://jitpack.io' }
 		mavenCentral()
+		// TODO gradlePluginPortalにLittleMaid-Loomが追加されたら消す
 		mavenLocal()
 		gradlePluginPortal()
 	}
 }
 
-rootProject.name = "LittleMaidModelDevelopment"
+rootProject.name = "littlemaidmodel-development"

@@ -10,7 +10,7 @@ littlemaidloom{
 	littleMaidReBirthVersion("${project.littlemaid_rebirth_version}")
 }
 
-version = "1.0.3"
+version = "${project.mod_version}"
 group = "com.github.yukkuritaku"
 
 base {
