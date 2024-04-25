@@ -1,8 +1,8 @@
-# LittleMaidModelDevelopment
+# LittleMaidModel-Development
 
 メイドさんのモデルを最新バージョンの開発環境で実行できるようにするModです。
 
-このModを導入することによってプロジェクト内でメイドさんのモデルを実行出来るようになります。
+このModを**開発環境で**導入することによってプロジェクト内でメイドさんのモデルを実行出来るようになります。
 
 ## 自分のプロジェクトに導入する方法
 <details><summary>build.gradle</summary>
@@ -27,7 +27,7 @@ repositories {
 
 dependencies {
     //...
-    modImplementation("com.github.Yukkuritaku:LittleMaidModelDevelopment:使用したいバージョン") {
+    modImplementation("com.github.Yukkuritaku:LittleMaidModel-Development:使用したいバージョン") {
         transitive = false
     }
 }

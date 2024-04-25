@@ -3,16 +3,16 @@
 	"id": "littlemaidmodeldevelopment",
 	"version": "${version}",
 	"name": "LittleMaid ModelDevelopment",
-	"description": "Create the LittleMaidModel for latest version in development environment.",
+	"description": "Create the LittleMaid Model for latest version in development environment.",
 	"authors": [
 		"Yukkuritaku"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/Yukkuritaku/LittleMaidModelDevelopment",
-		"issues": "https://github.com/Yukkuritaku/LittleMaidModelDevelopment/issues"
+		"sources": "https://github.com/Yukkuritaku/LittleMaidModel-Development",
+		"issues": "https://github.com/Yukkuritaku/LittleMaidModel-Development/issues"
 	},
-	"license": "https://github.com/Yukkuritaku/LittleMaidModelDevelopment/blob/1.20/LICENSE.txt",
+	"license": "https://github.com/Yukkuritaku/LittleMaidModel-Development/blob/1.20/LICENSE.txt",
 	"icon": "assets/littlemaidmodeldevelopment/icon.png",
 	"environment": "*",
 	"entrypoints": {
