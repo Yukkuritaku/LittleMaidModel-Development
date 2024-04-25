@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "littlemaidmodeldevelopment",
+	"version": "${version}",
+	"name": "LittleMaid ModelDevelopment",
+	"description": "Create the LittleMaidModel for latest version in development environment.",
+	"authors": [
+		"Yukkuritaku"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/Yukkuritaku/LittleMaidModelDevelopment",
+		"issues": "https://github.com/Yukkuritaku/LittleMaidModelDevelopment/issues"
+	},
+	"license": "https://github.com/Yukkuritaku/LittleMaidModelDevelopment/blob/1.20/LICENSE.txt",
+	"icon": "assets/littlemaidmodeldevelopment/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.github.yukkuritaku.littlemaidmodeldevelopment.LMMDMod"
+		],
+		"client": [
+			"com.github.yukkuritaku.littlemaidmodeldevelopment.LMMDModClient"
+		]
+	},
+	"mixins": [
+		"littlemaidmodeldevelopment.mixins.json",
+		{
+			"config": "littlemaidmodeldevelopment.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": ">=1.18.2",
+		"java": ">=17",
+		"fabric-api": "*",
+		"littlemaidmodelloader": ">=4.5.0",
+		"littlemaidrebirth": "*"
+	}
+}
