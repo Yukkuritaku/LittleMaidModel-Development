@@ -8,6 +8,7 @@ littlemaidloom{
 	minecraftVersion("${project.minecraft_version}")
 	littleMaidModelLoaderVersion("${project.littlemaid_model_loader_version}")
 	littleMaidReBirthVersion("${project.littlemaid_rebirth_version}")
+	readMeFile("LittleMaidModel_Readme.txt")
 }
 
 version = "${project.mod_version}"
